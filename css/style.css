@@ -1,0 +1,41 @@
+.clearfix::after { 
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.box-100{
+    width: 100%;
+}
+.box-50{
+    width: 50%;
+    float: left;
+}
+.box-40{
+   width: 40%;
+   float: left;
+}
+.box-30{
+  width: 30%;
+  float: left;
+}
+.box-20{
+   width: 20%;
+   float: left;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-green{
+    background-color: green;
+}
